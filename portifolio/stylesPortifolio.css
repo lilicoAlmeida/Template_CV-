@@ -1,0 +1,177 @@
+/* stylesPortfolio.css */
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+.light-grey-background {
+    background-color: #f1f1f1;
+}
+
+.content-container {
+    margin-top: 16px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row-padding {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.one-third, .two-third {
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.one-third {
+    flex: 0 0 33.33333%;
+}
+
+.two-third {
+    flex: 0 0 66.66667%;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.text-grey {
+    color: #757575;
+}
+
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.display-container {
+    position: relative;
+}
+
+.display-bottom-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.container {
+    padding: 16px;
+}
+
+.margin-right {
+    margin-right: 16px;
+}
+
+.large {
+    font-size: 18px;
+}
+
+.text-teal {
+    color: #009688;
+}
+
+.light-grey {
+    background-color: #f1f1f1;
+}
+
+.round-xlarge {
+    border-radius: 24px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.teal {
+    color: #fff;
+    background-color: #009688;
+}
+
+.margin-bottom {
+    margin-bottom: 16px;
+}
+
+.opacity {
+    opacity: 0.75;
+}
+
+.tag {
+    background-color: #f1f1f1;
+    color: #000;
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.xxlarge {
+    font-size: 36px;
+}
+
+.text-theme {
+    color: #fff;
+    background-color: #009688;
+}
+
+.center {
+    text-align: center;
+}
+
+.hover-opacity:hover {
+    opacity: 0.75;
+}
+
+footer.container {
+    padding: 16px;
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* Responsive Layout */
+@media (max-width: 992px) {
+    .one-third, .two-third {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 8px;
+    }
+
+    .row-padding {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .margin-right {
+        margin-right: 8px;
+    }
+
+    .large {
+        font-size: 16px;
+    }
+
+    .xxlarge {
+        font-size: 28px;
+    }
+
+    .card {
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16), 0 1px 6px 0 rgba(0,0,0,0.12);
+    }
+
+    footer.container {
+        padding: 8px;
+    }
+}
